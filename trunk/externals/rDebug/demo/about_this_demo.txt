@@ -1,0 +1,15 @@
+Sample and Demo codes.
+
+This is showing how to use it in a minimalistic Qt application which aside supports Signal/Slot
+
+rDebug_CLIDemo  : demonstrate a number of variations how to further use qDebug/qWarn/q... 
+                  as well as rDebug/rInfo/rNotice/... which are reflecting more the BSD syslog idea
+				  the App is fully SIGNAL/SLOT capable, but does not report the logging to a slot
+
+rDebug_FileDemo : same as rDebug_CliDemo, 
+                  but additionally a logfile is written, 
+                  which in addition can reduce the number of logging lines (by giving a lesser level)
+
+rDebug_SLOTDemo : same as rDebug_CliDemo, 
+                  but additionally logging information is sent to a SLOT 
+				  and captured / handled there
